@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/apps/apps.iml" filepath="$PROJECT_DIR$/apps/apps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/business_logic/bl-ear/bl-ear.iml" filepath="$PROJECT_DIR$/apps/business_logic/bl-ear/bl-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/business_logic/bl-ear.iml" filepath="$PROJECT_DIR$/apps/business_logic/bl-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/business_logic/bl-startup.iml" filepath="$PROJECT_DIR$/apps/business_logic/bl-startup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/business_logic/business_logic.iml" filepath="$PROJECT_DIR$/apps/business_logic/business_logic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/diplom_project.iml" filepath="$PROJECT_DIR$/diplom_project.iml" />
+    </modules>
+  </component>
+</project>
