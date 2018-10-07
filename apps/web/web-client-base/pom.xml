@@ -3,23 +3,21 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>bl-server</artifactId>
+    <artifactId>web-client-base</artifactId>
     <packaging>pom</packaging>
 
     <parent>
         <groupId>ua.com.timur</groupId>
-        <artifactId>apps</artifactId>
+        <artifactId>web</artifactId>
         <version>1.0</version>
     </parent>
 
     <modules>
-        <module>bl-ear</module>
-        <module>bl-startup</module>
-        <module>bl-interfaces</module>
-        <module>bl-services</module>
+        <module>web-client-base-ear</module>
+        <module>web-client-base-war</module>
     </modules>
 
-    <name>Business Logic Server</name>
-    <description>Here is business logic of App</description>
+    <name>Web Client Base Server</name>
+    <description>Here is web client base logic</description>
 
 </project>

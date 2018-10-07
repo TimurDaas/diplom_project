@@ -15,6 +15,12 @@
             <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.22" />
             <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.22" />
             <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+            <element id="archive" name="bl-interfaces-1.0.jar">
+              <element id="module-output" name="bl-interfaces" />
+            </element>
+            <element id="archive" name="bl-services-1.0.jar">
+              <element id="module-output" name="bl-services" />
+            </element>
             <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
           </element>
         </element>

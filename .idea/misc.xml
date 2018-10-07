@@ -2,17 +2,26 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="javaeeApplication" url="file://$PROJECT_DIR$/apps/business_logic/bl-ear" />
+    <file type="javaeeApplication" url="file://$PROJECT_DIR$/apps/web/web-client-base/web-client-base-ear" />
     <file type="web" url="file://$PROJECT_DIR$/apps/business_logic/bl-startup" />
+    <file type="web" url="file://$PROJECT_DIR$/apps/web" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/apps/business_logic/bl-startup/pom.xml" />
+        <option value="$PROJECT_DIR$/test_bl/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/apps/pom.xml" />
+        <option value="$PROJECT_DIR$/interfaces/pom.xml" />
+      </set>
+    </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="false" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

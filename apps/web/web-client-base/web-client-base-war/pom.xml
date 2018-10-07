@@ -5,7 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <packaging>war</packaging>
-    <artifactId>bl-startup</artifactId>
+    <artifactId>web-client-base-war</artifactId>
+
+    <parent>
+        <artifactId>web-client-base</artifactId>
+        <groupId>ua.com.timur</groupId>
+        <version>1.0</version>
+    </parent>
 
     <build>
         <plugins>
@@ -28,15 +34,8 @@
         </plugins>
     </build>
 
-    <parent>
-        <artifactId>bl-server</artifactId>
-        <groupId>ua.com.timur</groupId>
-        <version>1.0</version>
-    </parent>
-
-        <!--from bl ear-->
     <dependencies>
-
+        <!--from bl ear-->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
@@ -56,38 +55,16 @@
             <artifactId>log4j</artifactId>
             <version>1.2.17</version>
         </dependency>
-        <dependency>
-            <groupId>ua.com.timur</groupId>
-            <artifactId>bl-interfaces</artifactId>
-            <version>1.0</version>
-            <type>jar</type>
-        </dependency>
-        <dependency>
-            <groupId>ua.com.timur</groupId>
-            <artifactId>bl-services</artifactId>
-            <version>1.0</version>
-        </dependency>
+
     </dependencies>
 
     <profiles>
         <profile>
             <id>development</id>
             <build>
-                <finalName>startup</finalName>
+                <finalName>web-client-base</finalName>
             </build>
         </profile>
     </profiles>
-
-    <repositories>
-        <repository>
-            <id>repo</id>
-            <name>repo</name>
-            <releases>
-                <enabled>true</enabled>
-                <checksumPolicy>ignore</checksumPolicy>
-            </releases>
-            <url>C:\Users\тимур50\.m2\repository</url>
-        </repository>
-    </repositories>
 
 </project>

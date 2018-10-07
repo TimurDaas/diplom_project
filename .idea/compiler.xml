@@ -7,15 +7,30 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="bl-ear" />
+        <module name="bl-interfaces" />
+        <module name="bl-services" />
         <module name="bl-startup" />
+        <module name="interfaces (1)" />
+        <module name="test_bl" />
+        <module name="web-client-base-ear" />
+        <module name="web-client-base-war" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="apps" target="1.5" />
       <module name="bl-ear" target="1.7" />
+      <module name="bl-interfaces" target="1.5" />
+      <module name="bl-services" target="1.5" />
       <module name="bl-startup" target="1.7" />
       <module name="business_logic" target="1.5" />
       <module name="diplom_project" target="1.5" />
+      <module name="interfaces" target="1.5" />
+      <module name="interfaces (1)" target="1.5" />
+      <module name="test_bl" target="1.8" />
+      <module name="web" target="1.5" />
+      <module name="web-client-base" target="1.5" />
+      <module name="web-client-base-ear" target="1.7" />
+      <module name="web-client-base-war" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
