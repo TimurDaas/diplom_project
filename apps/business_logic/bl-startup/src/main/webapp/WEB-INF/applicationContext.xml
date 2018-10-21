@@ -10,7 +10,6 @@
 
     <!--<context:annotation-config/>-->
     <context:component-scan base-package="
-    diplom.startup, ua.com.timur.services
+    diplom.startup, ua.com.timur.services, ua.com.timur.config, ua.com.timur.interfaces
 "/>
-
 </beans>
