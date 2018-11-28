@@ -9,7 +9,6 @@
       <module fileurl="file://$PROJECT_DIR$/apps/business_logic/bl-startup/bl-startup.iml" filepath="$PROJECT_DIR$/apps/business_logic/bl-startup/bl-startup.iml" />
       <module fileurl="file://$PROJECT_DIR$/apps/business_logic/business_logic.iml" filepath="$PROJECT_DIR$/apps/business_logic/business_logic.iml" />
       <module fileurl="file://$PROJECT_DIR$/diplom_project.iml" filepath="$PROJECT_DIR$/diplom_project.iml" />
-      <module fileurl="file://$PROJECT_DIR$/test_bl/test_bl.iml" filepath="$PROJECT_DIR$/test_bl/test_bl.iml" />
       <module fileurl="file://$PROJECT_DIR$/apps/web/web.iml" filepath="$PROJECT_DIR$/apps/web/web.iml" />
       <module fileurl="file://$PROJECT_DIR$/apps/web/web-client-base/web-client-base.iml" filepath="$PROJECT_DIR$/apps/web/web-client-base/web-client-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/apps/web/web-client-base/web-client-base-ear/web-client-base-ear.iml" filepath="$PROJECT_DIR$/apps/web/web-client-base/web-client-base-ear/web-client-base-ear.iml" />

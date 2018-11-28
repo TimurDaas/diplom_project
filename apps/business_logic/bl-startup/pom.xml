@@ -4,8 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <artifactId>bl-server</artifactId>
+        <groupId>ua.com.timur</groupId>
+        <version>1.0</version>
+    </parent>
+
     <packaging>war</packaging>
     <artifactId>bl-startup</artifactId>
+
 
     <build>
         <plugins>
@@ -13,81 +20,40 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
-                <version>2.3</version>
                 <configuration>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
+                    <attachClasses>true</attachClasses>
                 </configuration>
             </plugin>
         </plugins>
     </build>
 
-    <parent>
-        <artifactId>bl-server</artifactId>
-        <groupId>ua.com.timur</groupId>
-        <version>1.0</version>
-    </parent>
-
-        <!--from bl ear-->
     <dependencies>
-
         <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>1.7.22</version>
-            <scope>compile</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-log4j12</artifactId>
-            <version>1.7.22</version>
-            <scope>compile</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>1.2.17</version>
+            <groupId>ua.com.timur</groupId>
+            <artifactId>bl-services</artifactId>
         </dependency>
         <dependency>
             <groupId>ua.com.timur</groupId>
             <artifactId>bl-interfaces</artifactId>
-            <version>1.0</version>
             <type>jar</type>
         </dependency>
         <dependency>
-            <groupId>ua.com.timur</groupId>
-            <artifactId>bl-services</artifactId>
-            <version>1.0</version>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.1.0</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
-    <profiles>
-        <profile>
-            <id>development</id>
-            <build>
-                <finalName>startup</finalName>
-            </build>
-        </profile>
-    </profiles>
 
-    <repositories>
-        <repository>
-            <id>repo</id>
-            <name>repo</name>
-            <releases>
-                <enabled>true</enabled>
-                <checksumPolicy>ignore</checksumPolicy>
-            </releases>
-            <url>C:\Users\тимур50\.m2\repository</url>
-        </repository>
-    </repositories>
+
 
 </project>

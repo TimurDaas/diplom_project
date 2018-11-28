@@ -7,10 +7,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.stereotype.Service;
-import ua.com.timur.config.UserMapper;
-import ua.com.timur.entity.UserVO;
-
-import java.util.List;
+import ua.com.timur.interfaces.FirstBean;
 
 /**
  * Created by тимур50 on 04.09.2018.
@@ -20,14 +17,17 @@ import java.util.List;
 public class BLAppListener implements ApplicationListener<ContextRefreshedEvent> {
     private static final Logger LOGGER = LoggerFactory.getLogger(BLAppListener.class);
 
+//    @Autowired
+//    @Qualifier("userMapper")
+//    UserMapper userMapper;
+
     @Autowired
-    @Qualifier(value = "userMapper")
-    UserMapper userMapper;
+    @Qualifier("example")
+    FirstBean firstBean;
 
     @Override
     public void onApplicationEvent(ContextRefreshedEvent contextRefreshedEvent) {
         initCryptoInstance();
-        List<UserVO> users = userMapper.getAll();
         LOGGER.info("InitCryptoInstance");
     }
 

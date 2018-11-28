@@ -19,9 +19,9 @@
     <bytecodeTargetLevel>
       <module name="apps" target="1.5" />
       <module name="bl-ear" target="1.7" />
-      <module name="bl-interfaces" target="1.5" />
-      <module name="bl-services" target="1.5" />
-      <module name="bl-startup" target="1.7" />
+      <module name="bl-interfaces" target="1.7" />
+      <module name="bl-services" target="1.7" />
+      <module name="bl-startup" target="1.8" />
       <module name="business_logic" target="1.5" />
       <module name="diplom_project" target="1.5" />
       <module name="interfaces" target="1.5" />

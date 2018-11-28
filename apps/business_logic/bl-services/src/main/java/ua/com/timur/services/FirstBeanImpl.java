@@ -6,7 +6,7 @@ import ua.com.timur.interfaces.FirstBean;
 /**
  * Created by тимур50 on 08.10.2018.
  */
-@Service
+@Service("example")
 public class FirstBeanImpl implements FirstBean{
     private String name = "default name";
 
