@@ -31,7 +31,6 @@ public class BLAppContextInit implements ApplicationContextInitializer<Configura
 
     @Override
     public void initialize(ConfigurableApplicationContext configurableApplicationContext) {
-        if(1==2)
-            shutdownServer(0);
+
     }
 }

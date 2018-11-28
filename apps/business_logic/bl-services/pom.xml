@@ -21,6 +21,11 @@
             <groupId>ua.com.timur</groupId>
             <artifactId>bl-interfaces</artifactId>
         </dependency>
+        <dependency>
+            <groupId>ua.com.timur</groupId>
+            <artifactId>common</artifactId>
+            <version>1.0</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -38,6 +43,5 @@
             </plugin>
         </plugins>
     </build>
-
 
 </project>

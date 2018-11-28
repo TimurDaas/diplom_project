@@ -13,10 +13,10 @@
     </parent>
 
     <modules>
-        <module>bl-ear</module>
-        <module>bl-startup</module>
         <module>bl-interfaces</module>
         <module>bl-services</module>
+        <module>bl-ear</module>
+        <module>bl-startup</module>
     </modules>
 
     <name>Business Logic Server</name>

@@ -19,6 +19,7 @@
     <modules>
         <module>business_logic</module>
         <module>web</module>
+        <module>common</module>
     </modules>
 
     <properties>
@@ -39,6 +40,12 @@
     <dependencyManagement>
         <dependencies>
 
+            <dependency>
+                <groupId>ua.com.timur</groupId>
+                <artifactId>common</artifactId>
+                <version>1.0</version>
+                <type>jar</type>
+            </dependency>
             <dependency>
                 <groupId>ua.com.timur</groupId>
                 <artifactId>bl-interfaces</artifactId>
