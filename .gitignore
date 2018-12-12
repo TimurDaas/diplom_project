@@ -1,3 +1,10 @@
 /target/
 .idea/*
 *.iml
+/.idea
+/.idea/*.iml
+/.idea/*.xml
+/.idea/artifacts/*.xml
+/.idea/inspectionProfiles/*.xml
+/.idea/libraries/*.xml
+/*.iml
