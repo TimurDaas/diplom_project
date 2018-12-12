@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN" "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <package name="struts-action-diplom" namespace="/" extends="struts-default">
+        <action name="Login" class="ua.com.cs.ifobs.webclient.sbrf.actions.login.LoginAction">
+            <interceptor-ref name="sbrfOpenStackWOValidation"/>
+            <result name="error" type="chain">MLogin</result>
+            <result name="input" type="redirect">LoginForm.action?errorCode=${errorCode}</result>
+            <result name="input_agses" type="redirect">LoginAgsesShow.action?errorCode=${errorCode}</result>
+            <result name="pwdchange" type="redirect">PasswordChangeShow.action?showLayout=true</result>
+            <result name="certcheck" type="redirect">LoginSecureForm.action</result>
+            <result name="secure" type="redirectAction">MainSecure</result>
+            <result name="finances" type="redirectAction">MyFinancesShow</result>
+            <result type="redirectAction">MainPageShow</result>
+        </action>
+
+        <action name="MainPageShow" class="ua.com.cs.ifobs.webclient.sbrf.actions.EmptyAction">
+            <result name="success">/struts/main/MainPage.jsp</result>
+        </action>
+
+    </package>
+</struts>

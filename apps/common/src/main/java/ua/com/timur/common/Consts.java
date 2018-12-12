@@ -14,6 +14,7 @@ public class Consts {
 
     public static final String APP_CONFIG_FILE_PATH = System.getProperty("app.config.file.path", "E:\\app.config");
     public static final String TEST_PROP = getProperty("test.prop","");
+    public static final boolean SHOW_WELCOME_PAGE = getProperty("show.welcome.page", true);
     public static String MOBILE_ID_URL = getProperty("mobile.id.auth.url","");
 
 

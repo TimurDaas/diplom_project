@@ -9,7 +9,5 @@
        default-lazy-init="false">
 
     <context:annotation-config/>
-    <context:component-scan base-package="
-    diplom.startup, ua.com.timur.services, ua.com.timur.config, ua.com.timur.mappers
-"/>
+    <context:component-scan base-package="diplom.web.startup"/>
 </beans>
