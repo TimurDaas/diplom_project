@@ -21,5 +21,4 @@ public class PropertyLoader extends Properties {
         FileInputStream in = new FileInputStream(Consts.APP_CONFIG_FILE_PATH);
         load(in);
     }
-
 }

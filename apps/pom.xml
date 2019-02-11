@@ -60,6 +60,12 @@
             </dependency>
             <dependency>
                 <groupId>ua.com.timur</groupId>
+                <artifactId>bl-dao</artifactId>
+                <version>1.0</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>ua.com.timur</groupId>
                 <artifactId>bl-startup</artifactId>
                 <version>1.0</version>
                 <type>war</type>

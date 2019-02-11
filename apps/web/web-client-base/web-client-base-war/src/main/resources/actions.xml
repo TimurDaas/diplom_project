@@ -19,5 +19,7 @@
             <result name="success">/struts/main/MainPage.jsp</result>
         </action>
 
+        
+
     </package>
 </struts>

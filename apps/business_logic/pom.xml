@@ -17,6 +17,7 @@
         <module>bl-services</module>
         <module>bl-ear</module>
         <module>bl-startup</module>
+        <module>bl-dao</module>
     </modules>
 
     <name>Business Logic Server</name>

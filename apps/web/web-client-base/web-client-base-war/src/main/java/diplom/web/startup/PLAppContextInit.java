@@ -17,6 +17,6 @@ public class PLAppContextInit implements ApplicationContextInitializer<Configura
 
     @Override
     public void initialize(ConfigurableApplicationContext configurableApplicationContext) {
-
+        new PLStaticContext().setPLApplicationContext(configurableApplicationContext);
     }
 }

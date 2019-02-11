@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.stereotype.Service;
+import ua.com.timur.common.Consts;
 import ua.com.timur.interfaces.FirstBean;
 
 /**
@@ -17,9 +18,6 @@ import ua.com.timur.interfaces.FirstBean;
 public class BLAppListener implements ApplicationListener<ContextRefreshedEvent> {
     private static final Logger LOGGER = LoggerFactory.getLogger(BLAppListener.class);
 
-//    @Autowired
-//    @Qualifier("userMapper")
-//    UserMapper userMapper;
 
     @Autowired
     @Qualifier("example")
@@ -33,6 +31,6 @@ public class BLAppListener implements ApplicationListener<ContextRefreshedEvent>
 
     private static void initCryptoInstance()
     {
-
+        System.out.println(Consts.MOBILE_ID_URL);
     }
 }

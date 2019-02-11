@@ -1,11 +1,5 @@
 package ua.com.timur.common;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.util.Properties;
-
 /**
  * Created by тимур50 on 01.11.2018.
  */
@@ -16,6 +10,10 @@ public class Consts {
     public static final String TEST_PROP = getProperty("test.prop","");
     public static final boolean SHOW_WELCOME_PAGE = getProperty("show.welcome.page", true);
     public static String MOBILE_ID_URL = getProperty("mobile.id.auth.url","");
+    public static String APP_DB_URL = getProperty("app.db.url","");
+    public static String APP_DB_USER = getProperty("app.db.user","");
+    public static String APP_DB_PASSWORD = getProperty("app.db.password","");
+    public static String APP_SIGN_ENCODING = getProperty("app.sign.encoding", "UTF-8");
 
 
 

@@ -1,7 +1,7 @@
-package ua.com.timur.entity;
+package ua.com.timur.entities;
 
 /**
- * Created by тимур50 on 21.10.2018.
+ * Created by тимур50 on 13.12.2018.
  */
 public class UserVO {
     private int id;

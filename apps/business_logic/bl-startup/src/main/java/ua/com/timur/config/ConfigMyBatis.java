@@ -7,6 +7,7 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import ua.com.timur.common.Consts;
 
 import javax.sql.DataSource;
 
@@ -16,14 +17,14 @@ import javax.sql.DataSource;
 
 @Configuration
 @MapperScan("ua.com.timur.mappers")
-public class Config {
+public class ConfigMyBatis {
 
     @Bean
     public DataSource dataSource() {
         MysqlDataSource dataSource = new MysqlDataSource();
-        dataSource.setURL("jdbc:mysql://localhost:3306/diplom");
-        dataSource.setUser("root");
-        dataSource.setPassword("td58ua");
+        dataSource.setURL(Consts.APP_DB_URL);
+        dataSource.setUser(Consts.APP_DB_USER);
+        dataSource.setPassword(Consts.APP_DB_PASSWORD);
         return dataSource;
     }
 
