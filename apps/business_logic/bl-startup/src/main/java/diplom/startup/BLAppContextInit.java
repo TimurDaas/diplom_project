@@ -4,7 +4,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationContextInitializer;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.stereotype.Component;
-import ua.com.timur.common.PropertyLoader;
+import ua.com.timur.common.Consts;
 
 /**
  * Created by тимур50 on 04.09.2018.
@@ -28,5 +28,12 @@ public class BLAppContextInit implements ApplicationContextInitializer<Configura
     }
     @Override
     public void initialize(ConfigurableApplicationContext configurableApplicationContext) {
+        if(!Consts.isLicenseReaded){
+           readLicense();
+        }
+    }
+
+    private void readLicense(){
+        Consts.isLicenseReaded = true;
     }
 }
