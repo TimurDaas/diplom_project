@@ -1,10 +1,35 @@
 package ua.com.timur.common;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import ua.com.timur.common.as.ASUtilsFactory;
+
+import java.io.FileInputStream;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Properties;
+import java.util.Set;
+
 /**
  * Created by тимур50 on 01.11.2018.
  */
 public class Consts {
+    private static final Logger LOGGER = LoggerFactory.getLogger(Consts.class);
 
+    static {
+        if(ASUtilsFactory.needLoadPropFile()) {
+            try {
+                System.getProperties().load(new FileInputStream(System.getProperty("diplom.config")));
+                LOGGER.info("Loaded properties: ", System.getProperties());
+            } catch (Exception e) {
+                LOGGER.error("Error while loading config file into System properties", e);
+            }
+        }
+
+    }
+
+
+    public static final String PROP_NODE_AS = "node.as";
 
     public static final String APP_CONFIG_FILE_PATH = getSystemProperty("app.config.file.path", "E:\\app.config");
     public static final String TEST_PROP = getSystemProperty("test.prop","");

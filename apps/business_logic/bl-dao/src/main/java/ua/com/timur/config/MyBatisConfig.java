@@ -17,7 +17,7 @@ import javax.sql.DataSource;
  */
 
 @Configuration
-//@ComponentScan("ua.com.timur.")
+@ComponentScan("ua.com.timur.")
 @MapperScan("ua.com.timur.mappers")
 public class MyBatisConfig {
 
