@@ -12,7 +12,7 @@ import java.util.List;
  * Created by тимур50 on 13.12.2018.
  */
 @Mapper
-@Service(value = "userMapper")
+//@Service(value = "userMapper")
 public interface UserMapper {
 
     @Select("select * from users")
