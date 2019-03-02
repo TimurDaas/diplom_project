@@ -1,8 +1,7 @@
-package ua.com.timur.entities;
+package ua.com.timur.common.entities;
 
 import ua.com.timur.common.certs.CertAuthType;
-
-import java.sql.Date;
+import java.util.Date;
 
 /**
  * Created by тимур50 on 26.02.2019.
@@ -17,7 +16,7 @@ public class UserCertVO {
     private byte[] certExt;
     private String certSerial;
     private String certExtSerial;
-    private int certTypyId;
+    private int certTypeId;
     private int isBlocked;
     private String caUserSerialNumber;
     private CertAuthType certAuthType;
@@ -96,11 +95,11 @@ public class UserCertVO {
     }
 
     public int getCertTypyId() {
-        return certTypyId;
+        return certTypeId;
     }
 
-    public void setCertTypyId(int certTypyId) {
-        this.certTypyId = certTypyId;
+    public void setCertTypyId(int certTypeId) {
+        this.certTypeId = certTypeId;
     }
 
     public int getIsBlocked() {

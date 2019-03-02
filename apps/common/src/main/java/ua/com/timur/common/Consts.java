@@ -36,6 +36,9 @@ public class Consts {
     public static final String APP_DB_URL = getSystemProperty("app.db.url","");
     public static final String APP_DB_USER = getSystemProperty("app.db.user","");
     public static final String APP_DB_PASSWORD = getSystemProperty("app.db.password","");
+    public static final String BL_REMOTE_URL = getSystemProperty("bl.remote.url","");
+    public static final int HTTPINVOKER_MAX_TOTAL_CONNECTIONS = getSystemProperty("bl.http.invoker.max.total.conn", 300);
+    public static final int HTTPINVOKER_MAX_CONNECTIONS_PER_ROUTE = getSystemProperty("bl.http.invoker.max.conn.per.route", 300);
 
     public static final boolean SHOW_WELCOME_PAGE = getProperty("show.welcome.page", true);
     public static String MOBILE_ID_URL = getProperty("mobile.id.auth.url","");
@@ -69,12 +72,12 @@ public class Consts {
 
     public static boolean getSystemProperty(String name, boolean defaultValue) {
         String value = System.getProperty(name);
-        return value != null ? defaultValue : Boolean.valueOf(value);
+        return value != null ? Boolean.valueOf(value) : defaultValue;
     }
 
     public static int getSystemProperty(String name, int defaultValue) {
         String value = System.getProperty(name);
-        return value != null ? defaultValue : Integer.parseInt(value);
+        return value != null ? Integer.parseInt(value) : defaultValue;
     }
 
 }

@@ -20,7 +20,6 @@ public class BLAppListener implements ApplicationListener<ContextRefreshedEvent>
 
 
     @Autowired
-    @Qualifier("example")
     FirstBean firstBean;
 
     @Override
