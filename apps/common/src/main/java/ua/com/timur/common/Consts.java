@@ -30,7 +30,7 @@ public class Consts {
 
 
     public static final String PROP_NODE_AS = "node.as";
-
+    public static boolean isLicenseReaded = false;
     public static final String APP_CONFIG_FILE_PATH = getSystemProperty("app.config.file.path", "E:\\app.config");
     public static final String TEST_PROP = getSystemProperty("test.prop","");
     public static final String APP_DB_URL = getSystemProperty("app.db.url","");
@@ -41,11 +41,12 @@ public class Consts {
     public static final int HTTPINVOKER_MAX_CONNECTIONS_PER_ROUTE = getSystemProperty("bl.http.invoker.max.conn.per.route", 300);
 
     public static final boolean SHOW_WELCOME_PAGE = getProperty("show.welcome.page", true);
+    public static final String APP_WEB_CLIENT_TITLE = getProperty("show.welcome.page", "\u0414\u0438\u043c\u043f\u043b\u043e\u043c\u043d\u043e\u0435 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435");
     public static String MOBILE_ID_URL = getProperty("mobile.id.auth.url","");
     public static String MOBILE_ID_CLIENT_ID = getProperty("mobile.id.client_id","");
     public static String MOBILE_ID_CLIENT_SECRET = getProperty("mobile.id.client_secret","");
     public static String APP_SIGN_ENCODING = getProperty("app.sign.encoding", "UTF-8");
-    public static boolean isLicenseReaded = false;
+
 
 
     public static String getProperty(String name, String defaultValue) {

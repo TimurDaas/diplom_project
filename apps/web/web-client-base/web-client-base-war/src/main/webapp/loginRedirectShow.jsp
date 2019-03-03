@@ -12,7 +12,7 @@
     if (Consts.SHOW_WELCOME_PAGE) {
         response.sendRedirect("LoginSecurityShow.action");
     } else {
-        response.sendRedirect("LoginShow.action");
+        response.sendRedirect("LoginChooseShow.action");
     }
 %>
 </html>
