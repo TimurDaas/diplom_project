@@ -40,8 +40,8 @@ public class Consts {
     public static final int HTTPINVOKER_MAX_TOTAL_CONNECTIONS = getSystemProperty("bl.http.invoker.max.total.conn", 300);
     public static final int HTTPINVOKER_MAX_CONNECTIONS_PER_ROUTE = getSystemProperty("bl.http.invoker.max.conn.per.route", 300);
 
-    public static final boolean SHOW_WELCOME_PAGE = getProperty("show.welcome.page", true);
-    public static final String APP_WEB_CLIENT_TITLE = getProperty("show.welcome.page", "\u0414\u0438\u043c\u043f\u043b\u043e\u043c\u043d\u043e\u0435 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435");
+    public static final boolean SHOW_LOGIN_FIRST_STEP_PAGE = getProperty("show.login.first.step.page", false);
+    public static final String APP_WEB_CLIENT_TITLE = getProperty("app.web.client.title", "\u0414\u0438\u043c\u043f\u043b\u043e\u043c\u043d\u043e\u0435 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435");
     public static String MOBILE_ID_URL = getProperty("mobile.id.auth.url","");
     public static String MOBILE_ID_CLIENT_ID = getProperty("mobile.id.client_id","");
     public static String MOBILE_ID_CLIENT_SECRET = getProperty("mobile.id.client_secret","");

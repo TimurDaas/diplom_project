@@ -22,21 +22,6 @@
         <module>common</module>
     </modules>
 
-    <properties>
-        <!--<spring.version>4.3.6.RELEASE</spring.version>-->
-        <!--<spring.boot.version>2.0.4.RELEASE</spring.boot.version>-->
-        <!--<spring-security.version>4.2.1.RELEASE</spring-security.version>-->
-        <!--<spring-int.version>4.3.7.RELEASE</spring-int.version>-->
-        <!--<spring.ws.version>2.4.0.RELEASE</spring.ws.version>-->
-        <!--<spring-oracle-collection.version>1.9-SNAPSHOT</spring-oracle-collection.version>-->
-        <!--<frontend-maven-plugin.version>1.6</frontend-maven-plugin.version>-->
-        <!--<node.version>v8.11.1</node.version>-->
-        <!--<npm.version>5.6.0</npm.version>-->
-        <!--<user-agent-utils.version>1.21</user-agent-utils.version>-->
-        <!--<map-struct.version>1.2.0.Final</map-struct.version>-->
-    </properties>
-
-
     <dependencyManagement>
         <dependencies>
 

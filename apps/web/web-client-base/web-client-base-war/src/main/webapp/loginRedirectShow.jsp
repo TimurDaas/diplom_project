@@ -9,7 +9,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
 <%
-    if (Consts.SHOW_WELCOME_PAGE) {
+    if (Consts.SHOW_LOGIN_FIRST_STEP_PAGE) {
         response.sendRedirect("LoginSecurityShow.action");
     } else {
         response.sendRedirect("LoginChooseShow.action");
