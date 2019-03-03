@@ -5,8 +5,8 @@
     <title><s:property value="@ua.com.timur.common.Consts@APP_WEB_CLIENT_TITLE"/></title>
 </head>
 <body>
-<p>
-
-</p>
+<h1 align="center">
+    Логин в систему
+</h1>
 </body>
 </html>
