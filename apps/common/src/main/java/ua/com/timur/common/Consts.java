@@ -46,6 +46,7 @@ public class Consts {
     public static String MOBILE_ID_CLIENT_ID = getProperty("mobile.id.client_id","");
     public static String MOBILE_ID_CLIENT_SECRET = getProperty("mobile.id.client_secret","");
     public static String APP_SIGN_ENCODING = getProperty("app.sign.encoding", "UTF-8");
+    public static boolean APP_SELF_REGISTRATION_ENABLED = getProperty("app.self.registration.enabled", false);
 
 
 

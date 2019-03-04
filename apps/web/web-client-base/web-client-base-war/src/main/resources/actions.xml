@@ -20,6 +20,11 @@
             <result name="success">/views/LoginChoose.jsp</result>
         </action>
 
+        <action name="SelfRegistrationShow" class="diplom.web.struts.registration.SerRegistrationShowAction">
+            <result name="success">views/SelfRegistration.jsp</result>
+            <result name="login">loginRedirectShow.jsp</result>
+        </action>
+
         
 
     </package>
