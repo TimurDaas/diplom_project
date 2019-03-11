@@ -17,12 +17,17 @@
 
 
         <action name="LoginChooseShow" class="diplom.web.struts.auth.LoginChooseShowAction">
-            <result name="success">/views/LoginChoose.jsp</result>
+            <result name="success">/views/login/LoginChoose.jsp</result>
         </action>
 
-        <action name="SelfRegistrationShow" class="diplom.web.struts.registration.SerRegistrationShowAction">
-            <result name="success">views/SelfRegistration.jsp</result>
+        <action name="SelfRegistrationShow" class="diplom.web.struts.registration.SelfRegistrationShowAction">
+            <result name="success">views/selfregistration/SelfRegistration.jsp</result>
             <result name="login">loginRedirectShow.jsp</result>
+        </action>
+
+        <action name="SelfRegistration" class="diplom.web.struts.registration.SelfRegistrationAction">
+            <result name="success">views/selfregistration/SelfRegistrationSuccess.jsp</result>
+            <result name="error">loginRedirectShow.jsp</result>
         </action>
 
         

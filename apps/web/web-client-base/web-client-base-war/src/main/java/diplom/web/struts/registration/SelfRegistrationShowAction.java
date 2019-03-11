@@ -6,7 +6,7 @@ import ua.com.timur.common.Consts;
 /**
  * Created by тимур50 on 04.03.2019.
  */
-public class SerRegistrationShowAction extends WebClientBaseAction {
+public class SelfRegistrationShowAction extends WebClientBaseAction {
     @Override
     protected String executeInherited() throws Exception {
         if(Consts.APP_SELF_REGISTRATION_ENABLED)
