@@ -1,7 +1,13 @@
 <component name="ArtifactManager">
   <artifact type="war" name="bl-startup:war">
     <output-path>$PROJECT_DIR$/apps/business_logic/bl-startup/target</output-path>
-    <root id="archive" name="bl-startup-1.0.war">
+    <properties id="maven-jee-properties">
+      <options>
+        <module>bl-startup</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="startup.war">
       <element id="artifact" artifact-name="bl-startup:war exploded" />
     </root>
   </artifact>
