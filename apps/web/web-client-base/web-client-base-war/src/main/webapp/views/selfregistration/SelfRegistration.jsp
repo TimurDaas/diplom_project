@@ -4,6 +4,7 @@
 <head>
     <title><s:property value="@ua.com.timur.common.Consts@APP_WEB_CLIENT_TITLE"/></title>
 </head>
+<script src="./script/libs/jquery-3.3.1.min.js" type="text/javascript"></script>
 <body>
 <h1 align="center" style="color: #2183f9;">
     Регистрация в системе
@@ -22,7 +23,12 @@
         <option value="3">Физ.лицо-предпрениматель</option>
         <option value="4">Физическое лицо</option>
     </select>
-    <input type="submit" id = "enter_btn" value="Зарегистрироваться"/>
+    <button type="submit" id = "enter_btn" value="Зарегистрироваться" onclick="doSubmit()">Registration</button>
 </form>
+<script type="text/javascript">
+    function doSubmit() {
+        document.selfRegistration.submit();
+    }
+</script>
 </body>
 </html>
