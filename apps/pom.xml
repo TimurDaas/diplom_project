@@ -13,7 +13,7 @@
     <parent>
         <groupId>ua.com.timur</groupId>
         <artifactId>diplom</artifactId>
-        <version>1.0</version>
+        <version>2.0</version>
     </parent>
 
     <modules>
@@ -28,38 +28,38 @@
             <dependency>
                 <groupId>ua.com.timur</groupId>
                 <artifactId>common</artifactId>
-                <version>1.0</version>
+                <version>2.0</version>
                 <type>jar</type>
             </dependency>
             <dependency>
                 <groupId>ua.com.timur</groupId>
                 <artifactId>bl-interfaces</artifactId>
-                <version>1.0</version>
+                <version>2.0</version>
                 <type>jar</type>
             </dependency>
             <dependency>
                 <groupId>ua.com.timur</groupId>
                 <artifactId>bl-services</artifactId>
-                <version>1.0</version>
+                <version>2.0</version>
                 <type>jar</type>
             </dependency>
             <dependency>
                 <groupId>ua.com.timur</groupId>
                 <artifactId>bl-dao</artifactId>
-                <version>1.0</version>
+                <version>2.0</version>
                 <type>jar</type>
             </dependency>
             <dependency>
                 <groupId>ua.com.timur</groupId>
                 <artifactId>bl-startup</artifactId>
-                <version>1.0</version>
+                <version>2.0</version>
                 <type>war</type>
             </dependency>
 
             <dependency>
                 <groupId>ua.com.timur</groupId>
                 <artifactId>web-client-base-war</artifactId>
-                <version>1.0</version>
+                <version>2.0</version>
                 <type>war</type>
             </dependency>
 

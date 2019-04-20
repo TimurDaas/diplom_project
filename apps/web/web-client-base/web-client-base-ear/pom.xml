@@ -10,14 +10,13 @@
     <parent>
         <artifactId>web-client-base</artifactId>
         <groupId>ua.com.timur</groupId>
-        <version>1.0</version>
+        <version>2.0</version>
     </parent>
 
     <dependencies>
         <dependency>
             <groupId>ua.com.timur</groupId>
             <artifactId>web-client-base-war</artifactId>
-            <version>1.0</version>
             <type>war</type>
         </dependency>
 
@@ -51,7 +50,7 @@
                 <artifactId>maven-ear-plugin</artifactId>
                 <configuration>
                     <displayName>Web Logic</displayName>
-                    <finalName>pl-server</finalName>
+                    <finalName>web-client</finalName>
                     <generateApplicationXml>true</generateApplicationXml>
                     <defaultLibBundleDir>lib</defaultLibBundleDir>
                     <version>6</version>

@@ -9,7 +9,7 @@
     <parent>
         <groupId>ua.com.timur</groupId>
         <artifactId>bl-server</artifactId>
-        <version>1.0</version>
+        <version>2.0</version>
     </parent>
 
     <name>bl-dao</name>
