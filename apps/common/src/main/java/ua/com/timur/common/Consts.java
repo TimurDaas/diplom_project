@@ -33,9 +33,6 @@ public class Consts {
     public static boolean isLicenseReaded = false;
     public static final String APP_CONFIG_FILE_PATH = getSystemProperty("app.config.file.path", "E:\\app.config");
     public static final String TEST_PROP = getSystemProperty("test.prop","");
-    public static final String APP_DB_URL = getSystemProperty("app.db.url","");
-    public static final String APP_DB_USER = getSystemProperty("app.db.user","");
-    public static final String APP_DB_PASSWORD = getSystemProperty("app.db.password","");
     public static final String BL_REMOTE_URL = getSystemProperty("bl.remote.url","");
     public static final int HTTPINVOKER_MAX_TOTAL_CONNECTIONS = getSystemProperty("bl.http.invoker.max.total.conn", 300);
     public static final int HTTPINVOKER_MAX_CONNECTIONS_PER_ROUTE = getSystemProperty("bl.http.invoker.max.conn.per.route", 300);

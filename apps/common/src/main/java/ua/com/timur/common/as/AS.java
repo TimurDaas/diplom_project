@@ -7,5 +7,6 @@ public enum AS {
     JBOSS7_EAP,
     JBOSS6,
     WEBLOGIC,
-    WEBSPHERE;
+    WEBSPHERE,
+    WILDFLY;
 }
