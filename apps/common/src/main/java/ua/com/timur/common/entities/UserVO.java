@@ -1,4 +1,4 @@
-package ua.com.timur.entities;
+package ua.com.timur.common.entities;
 
 /**
  * Created by тимур50 on 13.12.2018.

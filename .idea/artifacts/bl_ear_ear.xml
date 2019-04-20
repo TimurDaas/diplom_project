@@ -1,7 +1,13 @@
 <component name="ArtifactManager">
   <artifact type="ear" name="bl-ear:ear">
     <output-path>$PROJECT_DIR$/apps/business_logic/bl-ear/target</output-path>
-    <root id="archive" name="bl-ear-1.0.ear">
+    <properties id="maven-jee-properties">
+      <options>
+        <module>bl-ear</module>
+        <packaging>ear</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="bl-ear-2.0.ear">
       <element id="artifact" artifact-name="bl-ear:ear exploded" />
     </root>
   </artifact>

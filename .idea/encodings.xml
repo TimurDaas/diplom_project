@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apps" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apps/business_logic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/apps/business_logic/bl-dao" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apps/business_logic/bl-ear" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apps/business_logic/bl-interfaces" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apps/business_logic/bl-services" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apps/business_logic/bl-startup" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/apps/business_logic/interfaces" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/apps/common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apps/web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apps/web/web-client-base" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apps/web/web-client-base/web-client-base-ear" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apps/web/web-client-base/web-client-base-war" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/interfaces" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/test_bl" charset="UTF-8" />
   </component>
 </project>

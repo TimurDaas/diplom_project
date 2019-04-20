@@ -9,5 +9,5 @@
        default-lazy-init="false">
 
     <context:annotation-config/>
-    <context:component-scan base-package="diplom.web.startup"/>
+    <context:component-scan base-package="diplom.web.startup, diplom.web.config"/>
 </beans>

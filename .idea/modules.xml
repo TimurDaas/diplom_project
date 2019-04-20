@@ -3,12 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/apps/apps.iml" filepath="$PROJECT_DIR$/apps/apps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/business_logic/bl-dao/bl-dao.iml" filepath="$PROJECT_DIR$/apps/business_logic/bl-dao/bl-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/apps/business_logic/bl-ear/bl-ear.iml" filepath="$PROJECT_DIR$/apps/business_logic/bl-ear/bl-ear.iml" />
       <module fileurl="file://$PROJECT_DIR$/apps/business_logic/bl-interfaces/bl-interfaces.iml" filepath="$PROJECT_DIR$/apps/business_logic/bl-interfaces/bl-interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/business_logic/bl-server.iml" filepath="$PROJECT_DIR$/apps/business_logic/bl-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/apps/business_logic/bl-services/bl-services.iml" filepath="$PROJECT_DIR$/apps/business_logic/bl-services/bl-services.iml" />
       <module fileurl="file://$PROJECT_DIR$/apps/business_logic/bl-startup/bl-startup.iml" filepath="$PROJECT_DIR$/apps/business_logic/bl-startup/bl-startup.iml" />
-      <module fileurl="file://$PROJECT_DIR$/apps/business_logic/business_logic.iml" filepath="$PROJECT_DIR$/apps/business_logic/business_logic.iml" />
-      <module fileurl="file://$PROJECT_DIR$/diplom_project.iml" filepath="$PROJECT_DIR$/diplom_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/common/common.iml" filepath="$PROJECT_DIR$/apps/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/diplom.iml" filepath="$PROJECT_DIR$/diplom.iml" />
       <module fileurl="file://$PROJECT_DIR$/apps/web/web.iml" filepath="$PROJECT_DIR$/apps/web/web.iml" />
       <module fileurl="file://$PROJECT_DIR$/apps/web/web-client-base/web-client-base.iml" filepath="$PROJECT_DIR$/apps/web/web-client-base/web-client-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/apps/web/web-client-base/web-client-base-ear/web-client-base-ear.iml" filepath="$PROJECT_DIR$/apps/web/web-client-base/web-client-base-ear/web-client-base-ear.iml" />
