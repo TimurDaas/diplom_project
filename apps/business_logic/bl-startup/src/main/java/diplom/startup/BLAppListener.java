@@ -9,6 +9,7 @@ import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.stereotype.Service;
 import ua.com.timur.common.Consts;
 import ua.com.timur.interfaces.FirstBean;
+import ua.com.timur.mappers.UserMapper;
 
 /**
  * Created by тимур50 on 04.09.2018.
@@ -21,6 +22,10 @@ public class BLAppListener implements ApplicationListener<ContextRefreshedEvent>
 
     @Autowired
     FirstBean firstBean;
+
+    @Autowired
+    @Qualifier(value = "userMapper")
+    UserMapper mapper;
 
     @Override
     public void onApplicationEvent(ContextRefreshedEvent contextRefreshedEvent) {
